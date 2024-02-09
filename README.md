@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# WIP: Costs Project React - [@matheusbattisti](https://github.com/matheusbattisti "@matheusbattisti")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
