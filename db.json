@@ -1,5 +1,17 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name": "Costs",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": "5000",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    }
+  ],
   "categories": [
     {
       "id": 1,
