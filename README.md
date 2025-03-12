@@ -12,9 +12,6 @@ Resources\
 [http://localhost:5000/projects](http://localhost:5000/projects)\
 [http://localhost:5000/categories](http://localhost:5000/categories)
 
-Home\
-[http://localhost:5000](http://localhost:5000)
-
 ### `npm start`
 
 Runs the app in the development mode.\

@@ -4,7 +4,6 @@ import Message from "../layout/Message"
 function Projects() {
 
     const location = useLocation();
-    console.log("🚀 ~ Projects ~ location:", location)
     let message = ''
     if (location.state) {
         message = location.state.message
