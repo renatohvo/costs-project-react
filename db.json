@@ -21,6 +21,17 @@
       "cost": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "name": "Infra Project",
+      "budget": "50000",
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
