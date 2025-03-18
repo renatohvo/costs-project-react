@@ -9,13 +9,13 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
     handleRemove(id)
   }
 
-  const budgetRealPtBr = Intl.NumberFormat('pt-br', {style: 'currency', currency: 'BRL'}).format(budget ?? 0)
+  const budgetBRL = Intl.NumberFormat('pt-br', {style: 'currency', currency: 'BRL'}).format(budget ?? 0)
 
   return (
     <div className={styles.project_card}>
       <h4>{name}</h4>
       <p>
-        <span>Orçamento: </span> {budgetRealPtBr}
+        <span>Orçamento: </span> {budgetBRL}
       </p>
       <p className={styles.category_text}>
         <span className={`${styles[category.toLowerCase()]}`}></span> {category}

@@ -31,8 +31,8 @@ function Project() {
     setShowProjectForm(!showProjectForm)
   }
 
-  const budgetRealPtBr = Intl.NumberFormat('pt-br', {style: 'currency', currency: 'BRL'}).format(project.budget ?? 0)
-  const costRealPtBr = Intl.NumberFormat('pt-br', {style: 'currency', currency: 'BRL'}).format(project.cost ?? 0)
+  const budgetBRL = Intl.NumberFormat('pt-br', {style: 'currency', currency: 'BRL'}).format(project.budget ?? 0)
+  const costBRL = Intl.NumberFormat('pt-br', {style: 'currency', currency: 'BRL'}).format(project.cost ?? 0)
 
   return (
     <>
@@ -52,10 +52,10 @@ function Project() {
                     <span>Categoria:</span> {project.category.name}
                   </p>
                   <p>
-                    <span>Orçamento</span> {budgetRealPtBr}
+                    <span>Orçamento</span> {budgetBRL}
                   </p>
                   <p>
-                    <span>Total Utilizado</span> {costRealPtBr}
+                    <span>Total Utilizado</span> {costBRL}
                   </p>
                 </div>
               ) : (
