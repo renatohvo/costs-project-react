@@ -49,7 +49,7 @@ function Projects() {
                 setProjectMessage('Projeto removido com sucesso!')
             })
             .catch((err) => console.log(err))
-            setProjectMessage('')
+        setProjectMessage('')
     }
 
     return (

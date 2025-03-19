@@ -24,7 +24,6 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
     const submit = (e) => {
         e.preventDefault()
-        // console.log("🚀 ~ submit ~ project:", project)
         handleSubmit(project)
     }
 
